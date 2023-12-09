@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 
 reg=linear_model.LinearRegression()             
 df=pd.read_csv('dataset.csv')
-correct_password="joker"
+correct_password="password123"
 #print(df)
 X=df[['YearsExperience']]
 y=df[['Salary']]
